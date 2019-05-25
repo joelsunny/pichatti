@@ -18,7 +18,7 @@ type Msg struct {
 var remoteIP string
 var myName string
 
-func main() {
+func main_() {
 
 	remoteIP = os.Args[1]
 	myName = os.Args[2]
