@@ -1,2 +1,2 @@
 # pichatti
-python chat app
+golang terminal chat app intended for use within a LAN.
