@@ -19,7 +19,7 @@ func main() {
 }
 
 func uchatClient() {
-	Conn, _ := net.DialUDP("udp", nil, &net.UDPAddr{IP: []byte{192, 168, 0, 255}, Port: 10001, Zone: ""})
+	Conn, _ := net.DialUDP("udp", nil, &net.UDPAddr{IP: []byte{255, 255, 255, 255}, Port: 10001, Zone: ""})
 	defer Conn.Close()
 
 	reader := bufio.NewReader(os.Stdin)
